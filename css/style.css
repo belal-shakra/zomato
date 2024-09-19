@@ -9,10 +9,7 @@
 
 body {
   line-height: 1.6;
-  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 35rem;
+  height: 100rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,3 +50,22 @@ p {
   font-size: 0.8rem;
 }
 
+
+/*----------- Hero -------------*/
+
+.hero {
+  position: relative;
+  height: 34rem;
+}
+
+.bg-hero {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 46rem;
+  position: absolute;
+  top: -270px;
+  right: 0px;
+  left: 0px;
+  z-index: -1;
+}
