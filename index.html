@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zomato</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
@@ -56,9 +58,9 @@
       </section>
 
 
-      <section id="cards" class="d-flex justify-content-center">
+      <section id="cards" class="d-flex">
           <div class="row justify-content-center">
-            <div class="col col-md-12 col-lg-3 mx-4">
+            <div class="col col-sm-12 col-md-4 col-lg-3 mx-4">
               <div class="card rounded-4" style="width: 20rem;">
                 <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" class="card-img-top rounded-top-4" height="157px" alt="card-img">
                 <div class="card-body">
@@ -68,7 +70,7 @@
               </div>
             </div>
   
-            <div class="col col-md-12 col-lg-3 mx-4">
+            <div class="col col-sm-12 col-md-4 col-lg-3 mx-4">
               <div class="card rounded-4" style="width: 20rem;">
 
                 <div style="height: 157px;">
@@ -82,7 +84,7 @@
               </div>
             </div>
   
-            <div class="col col-md-12 col-lg-3 mx-4">
+            <div class="col col-sm-12 col-md-4 col-lg-3 mx-4">
 
               <div class="card rounded-4" style="width: 20rem;">
                 <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" class="card-img-top rounded-top-4" height="157px" alt="card-img">
@@ -94,6 +96,77 @@
             </div>
           </div>
       </section>
+
+      <section id="collection" class="container-lg py-5 my-5">
+        <div id="head" class="container">
+          <h2>Collections</h2>
+          <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Agra, based on trends</p>
+        </div>
+
+
+        <div id="content" class="">
+          <div class="cards row justify-content-center">
+            <div class="card postion-relative col-sm-12 col-lg-3 p-0 m-2" style="width: 15rem;">
+              <a href="#">
+                <img src="https://b.zmtcdn.com/data/collections/4a8fc66cfe2a43c7538d5716895a3019_1684739753.png?output-format=webp"
+                alt="" class="rounded-3" height="318px" width="100%">
+
+                <div class="position-absolute bottom-0 start-0 text-white px-2 shadow-lg mt-2 py-2">
+                  <p class="m-0 fs-6 fw-simibold">
+                    <b>6 Taj Resturants</b>
+                  </p>
+                  <p class="m-0">6 Places<i class="bi bi-caret-right-fill ps-2"></i></p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card postion-relative col-sm-12 col-lg-3 p-0 m-2" style="width: 15rem;">
+              <a href="#">
+                <img src="https://b.zmtcdn.com/data/collections/c3e8fb46e352ebb9d72c4f0cb5d27f39_1686042567.png?output-format=webp"
+                alt="" class="rounded-3" height="318px" width="100%">
+
+                <div class="position-absolute bottom-0 start-0 text-white px-2 shadow-lg mt-2 py-2">
+                  <p class="m-0 fs-6 fw-simibold">
+                    <b>15 Local Favorite Places</b>
+                  </p>
+                  <p class="m-0">15 Places<i class="bi bi-caret-right-fill ps-2"></i></p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card postion-relative col-sm-12 col-lg-3 p-0 m-2" style="width: 15rem;">
+              <a href="#">
+                <img src="https://b.zmtcdn.com/data/collections/a1e31eb92bb9951aaf1750d88497adb4_1684740352.jpg?output-format=webp"
+                alt="" class="rounded-3" height="318px" width="100%">
+
+                <div class="position-absolute bottom-0 start-0 text-white px-2 shadow-lg mt-2 py-2">
+                  <p class="m-0 fs-6 fw-simibold">
+                    <b>18 Best Luxury Dining Places</b>
+                  </p>
+                  <p class="m-0">18 Places<i class="bi bi-caret-right-fill ps-2"></i></p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card postion-relative col-sm-12 col-lg-3 p-0 m-2" style="width: 15rem;">
+              <a href="#">
+                <img src="https://b.zmtcdn.com/data/collections/a33a75bb9ce00650cde613173fe9d2ee_1684740006.png?output-format=webp"
+                alt="" class="rounded-3" height="318px" width="100%">
+
+                <div class="position-absolute bottom-0 start-0 text-white px-2 shadow-lg mt-2 py-2">
+                  <p class="m-0 fs-6 fw-simibold">
+                    <b class="text-truncate">6 Best Mughlai Places</b>
+                  </p>
+                  <p class="m-0">6 Places<i class="bi bi-caret-right-fill ps-2"></i></p>
+                </div>
+              </a>
+            </div>
+
+
+            
+          </div>
+        </div>
+      </section>
       
     </main>
 
@@ -104,6 +177,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
